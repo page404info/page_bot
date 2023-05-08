@@ -21,6 +21,9 @@ bot.on("text", async (ctx) => {
     case keybutton.main.process.toLowerCase():
       command.runProcess(ctx);
       break;
+      case keybutton.main.principle.toLowerCase():
+      command.runPrinciple(ctx);
+      break;
     case keybutton.main.chitlist.toLowerCase():
       command.runChitList(ctx);
       break;
